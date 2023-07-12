@@ -1,4 +1,18 @@
 /* Estilos generales */
+/* Estilos para pantallas más pequeñas (hasta 600px de ancho) */
+@media (max-width: 600px) {
+  /* Agrega aquí los estilos específicos para pantallas pequeñas */
+}
+
+/* Estilos para pantallas medianas (entre 601px y 900px de ancho) */
+@media (min-width: 601px) and (max-width: 900px) {
+  /* Agrega aquí los estilos específicos para pantallas medianas */
+}
+
+/* Estilos para pantallas más grandes (más de 900px de ancho) */
+@media (min-width: 901px) {
+  /* Agrega aquí los estilos específicos para pantallas grandes */
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
