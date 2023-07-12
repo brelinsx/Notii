@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias sobre Esports</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu archivo CSS -->
+</head>
+<body>
+  <header>
+    <img src="wepik-export-20230712001658Cp99.png" alt="Logo">
+    <h1></h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#noticias">Noticias</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <div class="hero">
+      <h2>Bienvenido a NotiEsports</h2>
+      <p>¡Mantente actualizado con las últimas noticias y eventos de los Esports!</p>
+      <a href="#noticias" class="btn">Ver Noticias</a>
+    </div>
+  </section>
+
+  <section id="noticias">
+    <div class="container">
+      <h2>Últimas Noticias</h2>
+      <div class="news-card">
+        <img src="scout-edg-worlds-2021.jpg" alt="Noticia 1">
+        <h3>League of Legends: EDward Gaming demanda a Scout por presunta violación contractual</h3>
+        <p>El campeón del mundo 2021, Scout, enfrenta una demanda de su antiguo equipo, EDward Gaming (EDG), por supuestamente haber firmado con un equipo coreano en 2021, mientras aún estaba bajo contrato con EDG.</p>
+        <a href="noticia1.html">Leer más</a>
+      </div>
+      <div class="news-card">
+        <img src="294739-salida-t1-article_cover_bd-1.jpg" alt="Noticia 2">
+        <h3>League of Legends: El entrenador de T1 renuncia</h3>
+        <p>Bae «Bengi» Seong-woong renunció como entrenador en jefe luego de un par de temporada a cargo del roster principal.</p>
+        <a href="noticia2.html">Leer más</a>
+      </div>
+      <!-- Agrega más noticias aquí -->
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>¿Tienes alguna pregunta o sugerencia? ¡Contáctanos!</p>
+      <form action="enviar.php" method="POST">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+        <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>Derechos de autor © 2023 NotiEsports. Todos los derechos reservados.</p>
+  </footer>
+
+ </body>
+</html>
